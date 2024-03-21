@@ -8,7 +8,11 @@ module.exports = {
       colors: {
         customGreen: 'rgba(34, 187, 135, 1)',
         customGray: 'rgba(153, 153, 153, 1)',
-        boldGray: 'rgba(63, 67, 68, 1)'
+        boldGray: 'rgba(63, 67, 68, 1)',
+        bgColor: 'rgba(241, 253, 246, 1)', 
+        textColor: 'rgba(103, 111, 125, 1)',
+        hoverGreen: 'rgba(1, 132, 87, 1)',
+        textGrayColor: 'rgba(126, 127, 128, 1)'
       },
     },
   },
