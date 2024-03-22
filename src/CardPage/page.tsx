@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import React from "react";
 
 const CardPage = () => {
@@ -120,11 +122,73 @@ const CardPage = () => {
         </div>
         <div className="flex flex-row justify-between w-[60%]">
           <p className="text-textGrayColor">Sahə</p>
-          <p>107m<sup>2</sup></p>
+          <p>
+            107m<sup>2</sup>
+          </p>
         </div>
         <div className="flex flex-row justify-between w-[60%]">
           <p className="text-textGrayColor">Bina mərtəbə sayı</p>
           <p className="text-boldGray">17</p>
+        </div>
+      </div>
+
+      <div className="flex flex-col w-[60%] py-[30px] border-b-[1px] gap-[10px]">
+        <p className="text-boldGray text-[16px] w-[90%]">
+          Yasamal Rayonu, Nizami metrosu, Murtuza Muxtarov Küçəsi (Məhəmməd
+          Naxçivani) Globus Centrin yaxınlığında. 10 mərtəbəli binanın 3-cü
+          mərtəbəsində yerləşən, ümumi sahəsi 102 kv-m olan, 3 otaqlı, mənzil
+          İpoteka ilə satılır. Bütün otaqlar gün görəndi, Pəncərəsi var, 2
+          Sanuzeli, Kombi istilik sistemi (isti pol). Kabel televiziyası. Yüksək
+          sürətli fiber-optik internet. OTİS lift, 8 ballıq seysmik davamlılıq.
+          IP-Domofoniya. 24 saat
+        </p>
+        <p className="text-customGreen text-[14px] font-semibold">
+          Hamısını göstər
+        </p>
+      </div>
+
+      <div className="flex flex-col w-[60%] py-[30px] gap-[30px] border-b-[1px]">
+        <div className="flex flex-row justify-between">
+          <div className="flex flex-row justify-between w-[40%]">
+            <p className="text-textGrayColor text-[16px] font-semibold">
+              Ünvan
+            </p>
+            <p className="text-boldGray text-[16px] font-semibold">
+              Ceyhun Hacıbəyli küçəsi
+            </p>
+          </div>
+          <div className="flex flex-row justify-between w-[40%] font-semibold text-[14px]">
+            <p className="px-[25px] py-[5px] bg-bgColor rounded-[20px]">
+              Bakı ş.
+            </p>
+            <p className="px-[25px] py-[5px] bg-bgColor rounded-[20px]">
+              Nərimanov r.
+            </p>
+            <p className="px-[25px] py-[5px] bg-bgColor rounded-[20px]">
+              Gənclik m.
+            </p>
+          </div>
+        </div>
+        <img src="/assets/map.png" alt="map" />
+      </div>
+
+      <div className="py-[30px] flex flex-col w-full">
+        <div className="flex flex-row justify-between">
+          <p className="text-boldGray text-[20px] font-bold">Bənzər Elanlar</p>
+          <p className="text-customGreen font-semibold text-[18px]">Daha çox</p>
+        </div>
+        <div className="relative border-[1px] rounded-[20px] w-[20%] hover:bg-imageBgColor">
+          <img src="/assets/elan1.png" alt="" className="mb-[20px]"/>
+          <FontAwesomeIcon
+            icon={faHeart}
+            className="absolute top-[10px] right-[10px] text-white "
+          />
+          <div className="flex flex-col p-[15px] pt-0">
+            <p className="text-customGreen text-[24px] font-bold">255 000 AZN</p>
+            <p className="text-[16px] font-bold">Biləcəri q - <span className="text-boldGray">Bakı</span></p>
+            <p className="text-textColor text-[16px]">1 otaqlı - 48,5 m - 14/19 mərtəbə</p>
+            <p className="text-dateColor text-[12px]">16 January 2017</p>
+          </div>
         </div>
       </div>
     </div>
