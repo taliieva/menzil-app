@@ -1,0 +1,127 @@
+{
+  "cardPage": {
+    "photoSection": {
+      "mainPhoto": "/assets/Rectangle 1019.png",
+      "altPhotos": [
+        "/assets/cardPage2.png",
+        "/assets/cardPage3.png",
+        "/assets/Rectangle 1022.png",
+        "/assets/cardPage4.png",
+        "/assets/cardPage5.png",
+        "/assets/cardPage3.png"
+      ]
+    },
+    "infoDetails": [
+      {
+        "label": "Əmlakın növü",
+        "value": "Yenitikili"
+      },
+      {
+        "label": "Mərtəbə",
+        "value": "8"
+      },
+      {
+        "label": "Əmlak sənədi",
+        "value": "Çıxarış (Kupça)"
+      },
+      {
+        "label": "Təmir",
+        "value": "Təmirli"
+      },
+      {
+        "label": "Otaq sayı",
+        "value": "3"
+      },
+      {
+        "label": "Sahə",
+        "value": "107m²"
+      },
+      {
+        "label": "Bina mərtəbə sayı",
+        "value": "17"
+      }
+    ],
+    "infoText": "Yasamal Rayonu, Nizami metrosu, Murtuza Muxtarov Küçəsi (Məhəmməd Naxçivani) Globus Centrin yaxınlığında. 10 mərtəbəli binanın 3-cü mərtəbəsində yerləşən, ümumi sahəsi 102 kv-m olan, 3 otaqlı, mənzil İpoteka ilə satılır. Bütün otaqlar gün görəndi, Pəncərəsi var, 2 Sanuzeli, Kombi istilik sistemi (isti pol). Kabel televiziyası. Yüksək sürətli fiber-optik internet. OTİS lift, 8 ballıq seysmik davamlılıq. IP-Domofoniya. 24 saat",
+    "location": ["Bakı ş.", "Nərimanov r.", "Gənclik m."]
+  },
+  "soilPage": {
+    "infoDetails": [
+      {
+        "label": "Əmlakın növü",
+        "value": "Torpaq"
+      },
+      {
+        "label": "Əmlak sənədi ",
+        "value": "Çıxarış (Kupça)"
+      },
+      {
+        "label": "Sahə",
+        "value": "25 sot"
+      }
+    ],
+    "infoText": "Merdekan qesebesinde cox prestijli bir yerde, Merdekan-Buzovna yolunda, Merdekandan uzu Buzovnaya gedende 'Encirlik' markete catmamis yolun saginda, merkezi magistral yoldan texminen 600-700 metre iceride sirf villalar olan kucede 25 sot torpaq sahesi satilir. Torpaq sahesi hasara alinib,qapisi qoyulub,yolu asfaltlidir. Etrafi yasayis evleri ve villalardir.Torpaq sahesi rahatliqla bolguye gedir.Sakit,rahat,prestijli bir mehelledir. Qazi,isiqi,icmeli suyu, telefon-internet xetti daimidir. Senedleri tam qaydasindadir (zGkupca]",
+    "location":["Bakı ş.", "Nərimanov r.", "Gənclik m."]
+  },
+  "objectPage":{
+    "infoDetails":[
+      {
+        "label": "Əmlakın növü",
+        "value": "Obyekt"
+      },
+      {
+        "label": "Mərtəbə",
+        "value": "1"
+      },
+      {
+        "label": "Əmlak sənədi",
+        "value": "Çıxarış (Kupça)"
+      },
+      {
+        "label": "Təmir",
+        "value": "Təmirli"
+      },
+      {
+        "label": "Satış növü",
+        "value": "İpoteka"
+      },
+      {
+        "label": "Sahə",
+        "value": "2680m²"
+      }
+    ],
+    "infoText":"Yasamal Rayonu, Nizami metrosu, Murtuza Muxtarov Küçəsi (Məhəmməd Naxçivani) Globus Centrin yaxınlığında. 10 mərtəbəli binanın 3-cü mərtəbəsində yerləşən, ümumi sahəsi 102 kv-m olan, 3 otaqlı, mənzil İpoteka ilə satılır. Bütün otaqlar gün görəndi, Pəncərəsi var, 2 Sanuzeli, Kombi istilik sistemi (isti pol). Kabel televiziyası. Yüksək sürətli fiber-optik internet. OTİS lift, 8 ballıq seysmik davamlılıq. IP-Domofoniya. 24 saat",
+    "location":["Bakı ş.", "Nərimanov r.", "Gənclik m."]
+  },
+  "garagePage":{
+    "infoDetails": [
+      {
+        "label": "Əmlakın növü",
+        "value": "Qaraj"
+      },
+      {
+        "label": "Əmlak sənədi ",
+        "value": "Çıxarış (Kupça)"
+      },
+      {
+        "label": "Sahə",
+        "value": "107 m2"
+      }
+    ],
+    "infoText":"Yasamal Rayonu, Nizami metrosu, Murtuza Muxtarov Küçəsi (Məhəmməd Naxçivani) Globus Centrin yaxınlığında. 10 mərtəbəli binanın 3-cü mərtəbəsində yerləşən, ümumi sahəsi 102 kv-m olan, 3 otaqlı, mənzil İpoteka ilə satılır. Bütün otaqlar gün görəndi, Pəncərəsi var, 2 Sanuzeli, Kombi istilik sistemi (isti pol). Kabel televiziyası. Yüksək sürətli fiber-optik internet. OTİS lift, 8 ballıq seysmik davamlılıq. IP-Domofoniya. 24 saat",
+    "location":["Bakı ş.", "Nərimanov r.", "Gənclik m."]
+  },
+  "footerSection":[
+    {
+      "label": "Ümumi",
+      "list":["İstifadəçi razılaşması", "Haqqımızda","Balansı artır","Reklam yerləşdir","Saytın xəritəsi"]
+    },
+    {
+      "label":"Qısayollar",
+      "list":["Agentliklər","Yaşayış kompleksləri","İnşaat şirkəti","Biznes mərkəzi"]
+    },
+    {
+      "label":"Əlaqə",
+      "list":["0XX  XXX XX XX","0XX  XXX XX XX","info@menzilim.az"]
+    }
+  ]
+}

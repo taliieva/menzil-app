@@ -1,10 +1,10 @@
 import './App.css';
-import CardPage from './CardPage/page.tsx';
+import Routers from './Routers/page.tsx';
 
 function App() {
   return (
     <div className="App">
-      <CardPage/>
+      <Routers/>
     </div>
   );
 }
