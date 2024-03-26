@@ -7,9 +7,9 @@ const InforGaragePage = () => {
     <div className="w-[60%]">
       <PhotoSection />
 
-      <div className="grid w-full text-[16px] font-semibold py-[30px] gap-[30px] border-b-[1px]">
+      <div className="grid w-full lg:text-[16px] text-[12px] font-semibold py-[30px] gap-[30px] border-b-[1px]">
         {garagePageData.garagePage.infoDetails.map((details, index) => (
-          <div className="flex flex-row justify-between w-[40%]" key={index}>
+          <div className="flex flex-row justify-between 900px:w-[40%] 500px:w-[60%] w-[90%]" key={index}>
             <p className="text-textGrayColor">{details.label}</p>
             <p className="text-boldGray">{details.value}</p>
           </div>
@@ -17,28 +17,28 @@ const InforGaragePage = () => {
       </div>
 
       <div className="flex flex-col w-full py-[30px] border-b-[1px] gap-[10px]">
-        <p className="text-boldGray text-[16px] w-[90%]">
+        <p className="text-boldGray lg:text-[16px] text-[12px] w-[90%]">
           {garagePageData.garagePage.infoText}
         </p>
-        <p className="text-customGreen text-[14px] font-semibold">
+        <p className="text-customGreen lg:text-[14px] text-[12px] font-semibold">
           Hamısını göstər
         </p>
       </div>
 
-      <div className="flex flex-col w-full py-[30px] gap-[30px] border-b-[1px]">
+      <div className="flex flex-col w-full py-[30px] lg:gap-[30px] border-b-[1px]">
         <div className="flex flex-row justify-between">
-          <div className="flex flex-row justify-between w-[40%]">
-            <p className="text-textGrayColor text-[16px] font-semibold">
+          <div className="flex flex-row justify-between lg:w-[40%] w-[50%] lg:text-[16px] text-[10px]">
+            <p className="text-textGrayColor font-semibold">
               Ünvan
             </p>
-            <p className="text-boldGray text-[16px] font-semibold">
+            <p className="text-boldGray font-semibold">
                Ceyhun Hacıbəyli küçəsi
             </p>
           </div>
-          <div className="flex flex-row justify-between w-[40%] font-semibold text-[14px]">
+          <div className="flex flex-row justify-between xl:w-[40%] font-semibold lg:text-[14px] xl:text-[12px] text-[10px] gap-[5px]">
             {garagePageData.garagePage.location.map((loc, index) => (
               <p
-                className="px-[25px] py-[5px] bg-bgColor rounded-[20px]"
+                className="lg:px-[15px] lg:py-[5px] px-[5px] py-[5px] bg-bgColor rounded-[20px]"
                 key={index}
               >
                 {loc}
