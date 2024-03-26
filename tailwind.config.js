@@ -16,6 +16,10 @@ module.exports = {
         dateColor: 'rgba(120, 133, 143, 1)',
         imageBgColor: 'rgba(237, 247, 241, 1)'
       },
+      screens:{
+        '900px':'900px',
+        '500px':'500px'
+      }
     },
   },
   plugins: [],

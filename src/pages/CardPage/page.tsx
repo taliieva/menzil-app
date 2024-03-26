@@ -7,15 +7,15 @@ import Footer from "../../components/Footer.tsx";
 const CardPage = () => {
   return (
     <div>
-      <div className="flex flex-col p-10 w-full">
+      <div className="flex flex-col sm:p-10 p-[10px] w-full">
         <div className="flex flex-row mb-[30px]">
           <p className="text-customGreen font-bold text-[16px]">Satış</p>
           <span className="mx-1">. </span>
           <p className="text-customGray font-bold text-[16px]">
             3 otaqlı yeni tikili
-          </p>
+          </p>  
         </div>
-        <h1 className="font-bold text-[24px] text-boldGray mb-[10px]">
+        <h1 className="font-bold md:text-[24px] sm:text-[20px] text-[18px] text-boldGray mb-[10px]">
           Satılır 3 otaqlı, Yeni tikili, 107 m<sup>2</sup>, Gənclik m/s.
         </h1>
         <div className="flex flex-row gap-[20px]">
