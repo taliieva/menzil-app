@@ -9,8 +9,8 @@ const InfoCardPage = () => {
       <div className="grid 500px:grid-cols-2 lg:w-[80%] sm:w-[90%] lg:text-[16px] text-[12px] font-semibold py-[30px] gap-[30px]">
         {cardPageData.cardPage.infoDetails.map((details, index) => (
           <div className="flex flex-row justify-between w-full justify-between">
-            <p className="text-textGrayColor">{details.label}</p>
-            <p className="text-boldGray">{details.value}</p>
+            <p className="text-textGrayColor w-[70px]">{details.label}</p>
+            <p className="text-boldGray w-[70px]">{details.value}</p>
           </div>
         ))}
       </div>
