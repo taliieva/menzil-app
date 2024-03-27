@@ -10,8 +10,8 @@ const InfoSoilPage = () => {
       <div className="grid w-full lg:text-[16px] text-[12px] font-semibold py-[30px] gap-[30px] border-b-[1px]">
         {soilPageCard.soilPage.infoDetails.map((details, index) => (
           <div className="flex flex-row justify-between 900px:w-[40%] 500px:w-[60%] w-[90%]" key={index}>
-            <p className="text-textGrayColor">{details.label}</p>
-            <p className="text-boldGray">{details.value}</p>
+            <p className="text-textGrayColor w-[200px]">{details.label}</p>
+            <p className="text-boldGray w-[110px]">{details.value}</p>
           </div>
         ))}
       </div>
