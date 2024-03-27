@@ -9,8 +9,8 @@ const InfoObjectPage = () => {
       <div className="grid 500px:grid-cols-2 lg:w-[80%] sm:w-[90%] lg:text-[16px] text-[12px] font-semibold py-[30px] gap-[30px]">
         {objectPageData.objectPage.infoDetails.map((details, index) => (
           <div className="flex flex-row justify-between w-full justify-between" key={index}>
-            <p className="text-textGrayColor">{details.label}</p>
-            <p className="text-boldGray">{details.value}</p>
+            <p className="text-textGrayColor w-[200px]">{details.label}</p>
+            <p className="text-boldGray w-[110px]">{details.value}</p>
           </div>
         ))}
       </div>
