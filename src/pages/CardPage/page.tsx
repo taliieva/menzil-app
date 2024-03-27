@@ -10,7 +10,7 @@ const CardPage = () => {
       <div className="flex flex-col sm:p-10 p-[10px] w-full">
         <div className="flex flex-row mb-[30px]">
           <p className="text-customGreen font-bold text-[16px]">Satış</p>
-          <span className="mx-1">. </span>
+          <span className="mx-1 flex h-[100%] items-center">. </span>
           <p className="text-customGray font-bold text-[16px]">
             3 otaqlı yeni tikili
           </p>  
